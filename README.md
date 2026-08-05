@@ -2,14 +2,14 @@
 OpenAPI / REST
 
 ## Alumnos
-Agostina Vera 51021<br>
-Victoria Collaud 51766
+Agostina Vera - 51021<br>
+Victoria Collaud - 51766
 
-## Informe y presentación 
-https://docs.google.com/document/d/1n33rCbwg9uc-_nyubQ0joil4Uj2mkiy1YiRUWZ6mMeY/edit?tab=t.0#heading=h.gjdgxs <br>
-https://docs.google.com/presentation/d/1wagFywrMzB-TQ5bh4etJn2dJPVoP2jlyxIrVfER6nUE/edit?slide=id.g3f672155b3b_0_939#slide=id.g3f672155b3b_0_939
+### Informe y presentación 
+* [Informe](https://docs.google.com/document/d/1n33rCbwg9uc-_nyubQ0joil4Uj2mkiy1YiRUWZ6mMeY/edit?tab=t.0#heading=h.gjdgxs) 
+* [Diapositivas](https://docs.google.com/presentation/d/1wagFywrMzB-TQ5bh4etJn2dJPVoP2jlyxIrVfER6nUE/edit?slide=id.g3f672155b3b_0_939#slide=id.g3f672155b3b_0_939)
 
-## Requisitos
+### Requisitos
 Antes de ejecutar el proyecto es necesario tener instalado: <br>
 
 *Node.js (versión 22 o superior) 
