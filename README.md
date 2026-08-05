@@ -12,12 +12,12 @@ Victoria Collaud - 51766
 ### Requisitos
 Antes de ejecutar el proyecto es necesario tener instalado: <br>
 
-*Node.js (versión 22 o superior) 
-*pnpm (versión 11 o superior)
+Node.js (versión 22 o superior) <br>
+pnpm (versión 11 o superior)
 <br>
 
 El proyecto utiliza las siguientes dependencias:<br>
 
-*express: framework para desarrollar la API REST.
-*swagger-ui-express: permite visualizar la documentación OpenAPI mediante Swagger UI.
-*yamljs: permite leer el archivo openapi.yaml.
+express: framework para desarrollar la API REST. <br>
+swagger-ui-express: permite visualizar la documentación OpenAPI mediante Swagger UI. <br>
+yamljs: permite leer el archivo openapi.yaml.
