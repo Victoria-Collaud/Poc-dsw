@@ -1,0 +1,89 @@
+openapi: 3.0.0
+
+info:
+  title: API de Películas
+  description: API REST de ejemplo para la Prueba de Concepto
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:3000
+
+paths:
+  /movies:
+    get:
+      summary: Obtener todas las películas
+      responses:
+        '200':
+          description: Listado generado correctamente
+
+    post:
+      summary: Agregar una película
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                titulo:
+                  type: string
+                director:
+                  type: string
+
+      responses:
+        '201':
+          description: Película creada
+
+  /movies/{id}:
+    get:
+      summary: Obtener una película por ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+
+      responses:
+        '200':
+          description: Película encontrada
+
+    put:
+      summary: Modificar una película
+
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                titulo:
+                  type: string
+                director:
+                  type: string
+
+      responses:
+        '200':
+          description: Película modificada
+
+    delete:
+      summary: Eliminar una película
+
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+
+      responses:
+        '200':
+          description: Película eliminada
